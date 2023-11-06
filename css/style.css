@@ -1,0 +1,39 @@
+body,html{
+    background-color: rgb(94, 93, 93);
+    color: rgb(42, 42, 42);
+}
+#output{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#fruit{
+    
+    width:  30vw;
+    height: 30vw;
+    margin-left: 2vw ;
+    margin-top: 5vh;
+    border: 10px outset black;
+    text-align: center;
+    background-color: lightgray;;
+}
+
+#Fruit-image{
+    margin-top: 3vw;
+    width: 15vw;
+}
+
+#name{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#price{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#weight{
+    font-size: 25px;
+}
